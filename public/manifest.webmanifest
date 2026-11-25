@@ -1,0 +1,21 @@
+{
+  "name": "Section2 근태·잔업 관리",
+  "short_name": "Section2",
+  "description": "팀 근태와 잔업을 한 화면에서 관리하는 대시보드",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f7fb",
+  "theme_color": "#1428A0",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

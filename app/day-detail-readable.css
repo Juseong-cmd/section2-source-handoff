@@ -1,0 +1,168 @@
+/* Readability overrides use a separate asset so returning clients receive updates immediately. */
+.day-detail-section-head h3,
+.day-expand-head strong {
+  font-size: 16px;
+}
+
+.day-detail-section-head > span,
+.day-expand-head > span {
+  font-size: 12px;
+}
+
+.day-summary-card span {
+  font-size: 13px;
+}
+
+.day-detail-actions button {
+  font-size: 14px;
+}
+
+.day-status-row {
+  min-height: 52px;
+}
+
+.day-status-row > strong {
+  font-size: 14px;
+}
+
+.day-status-row > button {
+  padding: 5px;
+  font-size: 12px;
+}
+
+.day-status-chip,
+.day-week-badge {
+  padding: 6px 9px;
+  font-size: 12px;
+}
+
+.day-detail-empty {
+  font-size: 13px;
+}
+
+.day-register-tabs button {
+  font-size: 13px;
+}
+
+.day-form-grid label > span,
+.day-form-label,
+.day-form-field > span {
+  font-size: 12px;
+}
+
+.day-form-grid input,
+.day-form-field input,
+.day-form-field > div {
+  min-height: 40px;
+  font-size: 13px;
+}
+
+.day-form-pills button {
+  padding: 7px 10px;
+  font-size: 12px;
+}
+
+.day-submit,
+.danger-submit,
+.day-danger-button {
+  min-height: 42px;
+  font-size: 13px;
+}
+
+.day-overtime-form p {
+  font-size: 13px;
+}
+
+.day-history-list li {
+  grid-template-columns: 92px minmax(0, 1fr) auto;
+}
+
+.day-history-list time,
+.day-history-list span {
+  font-size: 11px;
+}
+
+.day-history-list strong {
+  font-size: 12px;
+}
+
+.day-week-matrix {
+  grid-template-columns: 118px repeat(5, minmax(86px, 1fr));
+  min-width: 568px;
+}
+
+.day-week-cell {
+  min-height: 64px;
+  font-size: 12px;
+}
+
+.day-week-cell.header {
+  min-height: 52px;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+}
+
+.day-week-cell.name.header {
+  justify-content: center;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.day-week-badge {
+  padding: 6px 7px;
+  font-size: 11px;
+}
+
+.day-week-legend {
+  font-size: 11px;
+}
+
+@media (max-width: 900px) {
+  .day-week-matrix {
+    grid-template-columns: 92px repeat(5, minmax(48px, 1fr));
+    min-width: 0;
+  }
+
+  .day-week-cell {
+    min-height: 64px;
+    padding: 4px 2px;
+    font-size: 10px;
+  }
+
+  .day-week-cell.header {
+    font-size: 11px;
+  }
+
+  .day-week-cell.name {
+    font-size: 11px;
+  }
+
+  .day-week-badge {
+    padding: 5px 3px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 420px) {
+  .day-status-row > strong {
+    font-size: 13px;
+  }
+
+  .day-status-chip {
+    padding: 5px 7px;
+    font-size: 11px;
+  }
+
+  .day-week-matrix {
+    grid-template-columns: 82px repeat(5, minmax(0, 1fr));
+  }
+
+  .day-week-cell.header {
+    font-size: 10px;
+  }
+
+  .day-history-list li {
+    grid-template-columns: 68px minmax(0, 1fr);
+  }
+}
